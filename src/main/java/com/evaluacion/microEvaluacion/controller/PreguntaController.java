@@ -1,12 +1,10 @@
 package com.evaluacion.microEvaluacion.controller;
 
-import jakarta.transaction.Transactional;
+
 import com.evaluacion.microEvaluacion.model.Pregunta;
-import com.evaluacion.microEvaluacion.repository.PreguntaRepository;
 import com.evaluacion.microEvaluacion.service.PreguntaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

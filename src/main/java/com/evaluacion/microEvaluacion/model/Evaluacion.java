@@ -32,6 +32,7 @@ public class Evaluacion {
 
     @OneToMany(mappedBy = "evaluacion", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonIgnoreProperties("evaluacion")  // Para evitar loops recursivos
+    @JsonIgnore  // Ignora esta propiedad al serializar a JSON
     private List<Pregunta> preguntas; // Relación uno a muchos con Pregunta
 
 }

@@ -5,8 +5,6 @@ import com.evaluacion.microEvaluacion.model.Pregunta;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.evaluacion.microEvaluacion.model.Evaluacion;
-import com.evaluacion.microEvaluacion.repository.EvaluacionRepository;
 import java.util.List;
 
 @Service
