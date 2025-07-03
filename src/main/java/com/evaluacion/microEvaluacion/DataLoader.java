@@ -44,7 +44,7 @@ public class DataLoader implements CommandLineRunner {
             }
             evaluacion.setPreguntas(preguntas);
 
-            entityManager.persist(evaluacion); // Persistir evaluación y sus preguntas (cascade)
+            entityManager.persist(evaluacion); 
         }
     }
 
